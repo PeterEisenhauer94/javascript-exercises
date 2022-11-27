@@ -21,7 +21,7 @@ const palindromes = function (string) {
     }
     test(string,result);
 
-    //return result
+   //return result
    return test(string,result);
 };
 // Do not edit below this line
