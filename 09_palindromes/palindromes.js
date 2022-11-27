@@ -15,7 +15,7 @@ const palindromes = function (string) {
     //test if palindrome
     
     let test = function(string,result){
-        for (let i=0; i<string.length-1;i++){
+        for (let i=0; i<string.length;i++){
             if (string[i]!==result[i])
             return false;
         }
